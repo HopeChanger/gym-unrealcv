@@ -1,0 +1,70 @@
+{
+	"env_name": "MTMC18",
+	"env_bin": "MTMC18/LinuxNoEditor/MTMC16/Binaries/Linux/MTMC16",
+    "imgs_dir": "textures",
+	"cam_id": [1, 2, 3, 4, 5, 6],
+	"height": 350,
+	"pitch": 0,
+	"max_steps": 100,
+	"max_obstacles": 6,
+	"zoom": 0,
+	"field_size": [2696, 4174],
+	"resolution": [640, 480],
+	"target_default_z": 90,
+	"targets": [
+        "Ch01_BP_67", "Ch02_BP_54", "Ch07_BP_70", "Ch13_BP_2", "Ch21_BP_33",
+		"Ch22_BP_80", "Ch26_BP_65", "Ch31_BP_69", "Ch38_BP_35", "Ch42_BP_82"
+	],
+	"discrete_actions": [
+		[-100, -5],
+		[-100, 0],
+		[-100, 5],
+		[0, -5],
+		[0, 0],
+		[0, 5],
+		[100, -5],
+		[100, 0],
+		[100, 5]
+	],
+	"discrete_actions_player": [
+		[ 100,  0],
+		[-100,  0],
+		[  50, 15],
+		[  50,-15],
+		[  0,  30],
+		[  0, -30],
+		[  0,   0]
+	],
+	"safe_start" :[
+		[  -1000,    1000,  -1000, 1000]
+    ],
+	"cam_safe_start": [
+		[0],
+		[2696],
+		[4783],
+		[6870],
+		[9566],
+		[11653]
+	],
+	"reset_area": [-1348, 1348, -2087, 2087, 50, 100],
+	"continous_actions": {
+		"high": [ 40,   15,   15],
+		"low":  [-40,  -15,  -15]
+	},
+	"continous_actions_player": {
+		"high": [100,     30,    0],
+		"low":  [50,     -30,    0]
+	},
+	"objects_list": [
+		"Cone_14", "Cone2_17", "Cube_2", "Cube2_5", "Cylinder_8", "Cylinder2_11"
+	],
+    "backgrounds": [
+      "Floor_1","Wall7_4","Wall9","Wall10","Wall11"
+    ],
+    "lights": [
+    ],
+	"target_move": [100, 300],
+    "camera_move": [200, 200],
+	"scale_rate": 0 ,
+	"pose_rate": 0.5
+}
