@@ -1,5 +1,5 @@
 Gym-UnrealCV: Realistic virtual worlds for visual reinforcement learning
-===
+====
 
 # Introduction
 **This project integrates Unreal Engine with OpenAI Gym for visual reinforcement learning based on [UnrealCV](http://unrealcv.org/).**
